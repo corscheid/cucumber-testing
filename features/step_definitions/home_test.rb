@@ -1,5 +1,4 @@
 require 'rest-client'
-require 'colorize'
 require 'rspec/expectations'
 
 test_url = "http://www.commongroundshreveport.com/"
