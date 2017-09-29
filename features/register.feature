@@ -1,9 +1,9 @@
-Feature: visitor registers
+Feature: Visitor registers
+	In order to begin volunteering
 	As a visitor
 	I want to register
-	So that I can begin volunteering
-	Scenario: begin registration
-		Given I have navigated to the “Volunteer” page
-		When I click the “Register to volunteer” link
-		Then I should be redirected to the registration Google Form
-		And the registration Google Form should respond with HTTP 200
+
+	Scenario: Begin registration
+		Given I am on the "Volunteer" page
+		When I click the "Register to volunteer" link
+		Then I should see the registration Google Form
