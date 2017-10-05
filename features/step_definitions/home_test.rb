@@ -1,5 +1,5 @@
-Then("I should see the header image") do
-  expect(page).to have_css "img#Header1_headerimg"
+Then('I should see the header image') do
+  expect(page).to have_css 'img#Header1_headerimg'
 end
 
 Then(/^I should see "([^"]*)" in bold$/) do |text|
